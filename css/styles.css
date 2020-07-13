@@ -1,0 +1,136 @@
+
+body {
+    color: #40514E;
+    margin: 0px;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    font-weight: 700;
+}
+h1 {
+    color: #66bfbf;
+    /* margin-bottom: 0; */
+    /* width: 10%;
+    margin: 0 auto; */
+    font-family: 'Sacramento', cursive;
+    font-size: 5.625rem; /*  100% = 16px , so 562.5% = 90px. I want my font to be 90px....... 1em = 16px = 100%*/
+    margin: 50px auto 0 auto;
+
+}
+h2 {
+    color: #66bfbf;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem; /* 1rem = 16px = 100%, I want it to be 40px but on rem. */
+}
+h3 {
+    color: #11999E;
+    font-family: 'Montserrat', sans-serif;
+}
+a {
+    color: #11999E;
+}
+hr {
+    width: 4.5%;
+    border: none;
+    border-top: dotted;
+    border-color: #eaf6f6;
+    border-width: 7px;
+}
+.underline {
+    text-decoration: underline;
+}
+.top-container {
+    background-color: #E4F9F5;
+    position: relative;
+    padding-top: 100px;
+}
+.middle-container {
+    padding-top: 10px;
+    
+}
+.bottom-container {
+    background-color: #66bfbf;
+    margin-top: 40px;
+    height: 200px;
+}
+.top-cloud {
+    position: absolute;
+    right: 300px;
+    top: 50xp;
+}
+.bottom-cloud {
+    position: absolute;
+    left: 300px;
+    top: 300xp;
+}
+.profile-image {
+    width: 200px;
+    height: 190px;
+    border-radius: 50%;
+}
+.profile-image:hover {
+    clip-path: circle(35% at 65px 75px);
+}
+.profile {
+    width: 40%;
+    margin: 0 auto 80px;
+}
+.fullstack-img {
+    width: 35%;
+    height: 175px;
+    float: left;
+    margin-right: 25px;
+}
+.developer-img {
+    width: 25%;
+    height: 150px;
+    float: right;
+    margin-left: 25px;
+}
+.software-developer-intro {
+    font-weight: normal;
+    /* line-height: 2; */
+}
+.skill-row {
+    width: 50%;
+    margin: 100px auto;
+    text-align: left;
+    line-height: 2;
+    /* padding-left: 30px; */
+}
+.copy-right {
+    color: #eaf6f6;
+    margin-top: 50px;
+}
+.footer-link {
+    margin: 0 30px;
+    font-weight: bold;
+    text-decoration: none;
+}
+.footer-padding-top {
+    padding-top: 60px;
+    margin: 0;
+}
+.btn {
+    background-color: turquoise;
+    border: solid;
+    border-radius: 20px;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 30px auto;
+    position: relative;
+    top: 100px;
+    color: mintcream;
+    font-size: 20px;
+}
+.contact-me {
+    /* top: 20px; */
+    padding: 10px;
+    /* margin: 10px; */
+    height: 450px;
+    line-height: 2;
+    margin: 0 auto;
+    width: 40%;
+}
+.skills {
+    padding: 20px 0 0px 0;
+}
