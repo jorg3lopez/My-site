@@ -34,6 +34,7 @@ hr {
     border-top: dotted;
     border-color: #eaf6f6;
     border-width: 7px;
+    margin: 50px auto;
 }
 .underline {
     text-decoration: underline;
@@ -42,15 +43,17 @@ hr {
     background-color: #E4F9F5;
     position: relative;
     padding-top: 100px;
+    margin-bottom: 25px;
 }
 .middle-container {
     padding-top: 10px;
-    
+    margin-bottom: 25px;
 }
 .bottom-container {
     background-color: #66bfbf;
     margin-top: 40px;
     height: 200px;
+    margin-bottom: 25px;
 }
 .top-cloud {
     position: absolute;
@@ -100,11 +103,15 @@ hr {
 .copy-right {
     color: #eaf6f6;
     margin-top: 50px;
+    font-size: .75rem;
 }
 .footer-link {
     margin: 0 30px;
     font-weight: bold;
     text-decoration: none;
+}
+.footer-link:hover {
+    color: #eaf6f6;
 }
 .footer-padding-top {
     padding-top: 60px;
@@ -121,6 +128,9 @@ hr {
     top: 100px;
     color: mintcream;
     font-size: 20px;
+}
+.btn:hover {
+    background-color: teal;
 }
 .contact-me {
     /* top: 20px; */
